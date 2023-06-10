@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+	/* outline: 3px solid orange; */
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+}
+body {
+	background: #000;
+}
+.wrap {
+	width: 1296px;
+	background: #000;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo-img {
+	width: 189px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.header .menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	border-bottom: 1px solid #FFFFFF;
+}
+.header .menu li {
+	width: 32px;
+}
+.header .menu a {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+.banner .btn-start p {
+	padding: 20px 40px;
+	color: white;
+	width: 170px;
+	height: 64px;
+	margin-top: 40px;
+	margin-right: 634px;
+	border: 1px solid white;
+	border-radius: 16px;
+	text-align: center;
+	font-family: Noto Sans TC;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 120%;
+	letter-spacing: 0em;
+}
+.banner .btn-start .arrow-animation {
+	margin-top: 120px;
+	margin-bottom: 160px;
+}
+.banner .btn-start {
+	display: flex;
+}
+.box-service {
+	color: white;
+	margin-bottom: 20px;
+}
+.box-service .service-text {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.box-service .our-service {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 120%;
+	width: 414px;
+	height: 38px;
+}
+.box-service .service-introduction {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 120%;
+	width: 856px;
+}
+.box-service .cards-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 160px;
+}
+.box-service .cards-container li {
+	border: 1px solid #525252;
+	border-radius: 16px;
+	margin-right: 24px;
+	width: 416px;
+	padding: 80px 40px;
+}
+.box-service .cards-container-3 {
+	margin-right: 0px;
+}
+.box-service .cards-container h3 {
+	width: 64px;
+	height: 38px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 120%;
+}
+.box-service .cards-container p {
+	width: 336px;
+	height: 48px;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+}
+.box-partner {
+	width: 1296px;
+	margin: 0 auto;
+}
+.box-partner h3 {
+	color: white;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 120%;
+}
+
+.box-partner .partner-logo{
+    margin-bottom: 160px; 
+    margin-top: 80px;
+}
+
+
+.box-partner .cards-partner {
+	display: flex;
+}
+.box-partner ul .cards-partner {
+	display: flex;
+	justify-content: space-between;
+}
+.box-partner .cards-partner li {
+	width: 416px;
+	border: 1px solid black;
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.08);
+}
+.card-review-1, .card-review-2 {
+	margin-right: 24px;
+}
+.box-partner .cards-partner .img-stars {
+	width: 120px;
+	height: 16px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.box-partner .cards-partner .img-star {
+	margin-right: 4px;
+}
+.box-partner .cards-partner .p-review {
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: white;
+	margin: 0 auto;
+	margin-bottom: 109px;
+	width: 336px;
+	height: 215px;
+}
+.box-partner .cards-partner .name {
+	padding-bottom: 40px;
+}
+.box-partner .cards-partner .icon-person {
+	width: 40px;
+	height: 40px;
+	left: 0px;
+	top: 1px;
+	margin-left: 40px;
+}
+.box-partner .cards-partner .name .name-person {
+	display: inline-block;
+}
+.box-partner .cards-partner .name .name-person p {
+	font-weight: 700;
+	font-size: 16px;
+}
+.name-company-container {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: white;
+}
+.name-company-container .p-review {
+	width: 336px;
+	height: 216px;
+}
+.name-company-container .p-name-company {
+	margin-left: 16px;
+	margin-bottom: 40px;
+}
+/* style */
+
+.pd-b-20 {
+	padding-bottom: 20px;
+}
+.font-xl {
+	font-family: Noto Sans TC;
+	font-size: 120px;
+	font-weight: 900;
+	line-height: 144px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+}
+.font-xs {
+	font-family: Noto Sans TC;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+}
