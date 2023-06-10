@@ -181,7 +181,6 @@ body {
 }
 .box-partner .cards-partner li {
 	width: 416px;
-	border: 1px solid black;
 	border-radius: 16px;
 	background: rgba(255, 255, 255, 0.08);
 }
