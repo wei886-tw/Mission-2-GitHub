@@ -39,6 +39,7 @@ table {
 	font-family: 'Noto Sans TC';
 	font-style: normal;
 }
+
 body {
 	background: #000;
 }
@@ -105,7 +106,6 @@ body {
 	margin-bottom: 80px;
 }
 .box-service .our-service {
-	font-style: normal;
 	font-weight: 900;
 	font-size: 32px;
 	line-height: 120%;
@@ -113,8 +113,6 @@ body {
 	height: 38px;
 }
 .box-service .service-introduction {
-	font-family: 'Noto Sans TC';
-	font-style: normal;
 	font-weight: 900;
 	font-size: 48px;
 	line-height: 120%;
@@ -138,8 +136,6 @@ body {
 .box-service .cards-container h3 {
 	width: 64px;
 	height: 38px;
-	font-family: 'Noto Sans TC';
-	font-style: normal;
 	font-weight: 900;
 	font-size: 32px;
 	line-height: 120%;
@@ -147,8 +143,6 @@ body {
 .box-service .cards-container p {
 	width: 336px;
 	height: 48px;
-	font-family: 'Noto Sans TC';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
@@ -198,8 +192,6 @@ body {
 	margin-right: 4px;
 }
 .box-partner .cards-partner .p-review {
-	font-family: 'Noto Sans TC';
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
@@ -249,7 +241,7 @@ body {
 	width: 1296px;
 
 	background: white;
-	height: 4000px;;
+	height: 4000px;
 	border: 1px solid white;
 	border-radius: 160px;
 	margin: 0 auto;
@@ -267,10 +259,11 @@ body {
 }
 
 .searchBar-page2{
-	/* border: 3px solid black;
-	border-radius: 16px; */
+	border: 1px solid rgba(242, 242, 242, 1);
+	border-radius: 16px;
 	display: flex;
 	background: #F2F2F2;
+	
 
 } 
 
@@ -314,6 +307,53 @@ body {
 	color: #000;
 }
 
+.card-container-page2{
+	width: 1296px;
+}
+
+
+.card-container-page2 .six-cards{
+	width: 416px;
+	border: 1px solid #F2F2F2;
+	border-radius: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+.card-container-page2 .six-cards .card-title{
+	width: 352px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	margin-left: 32px;
+}
+
+.card-container-page2 .six-cards .card-title h3{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.card-container-page2 .six-cards .cards-content{
+	width: 352px;
+}
+
+.card-container-page2 .six-cards .card-content p{
+	margin-left: 32px;
+	font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+/* 
 .cards-list-page2{
 	display: flex;
 	flex-wrap: wrap;
@@ -347,7 +387,7 @@ body {
 
 .tag-and-share .icon-share{
 	display: block;
-}
+} */
 
 
 
